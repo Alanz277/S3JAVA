@@ -14,7 +14,7 @@ class fileintsum
     while((ch=fin.read())!=-1)
     {
       String s=Character.toString((char)ch);
-      StringTokenzier st=new StringTokenzier(s);
+      StringTokenizer st=new StringTokenizer(s);
       while(st.hasMoreTokens())
       {
         a=st.nextToken();
